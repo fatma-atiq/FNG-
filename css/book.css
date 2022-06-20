@@ -1,0 +1,57 @@
+/* Small phones to small tablets: from 480px to 768px */
+
+@media only screen and (max-width: 768px) {
+
+  #navbar-a {
+    margin-top: 0;
+    
+    }
+    .logo-a {
+      margin-top: 1rem;
+    }
+
+
+    .mobile-nav-icon {
+      display: block;
+      margin-top: 0;
+      
+    }
+
+    #navbar-a ul {
+      display: block;
+      display: none;
+    }
+
+    #navbar-a ul li a:link,
+    #navbar-a ul li a:visited {
+      border: 0;
+      display: block;
+      padding: 0;
+    }
+
+    #navbar-a ul li a:hover {
+      color: #22e6d6b7;
+    }
+
+
+
+  }
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    
+    .contact {
+      display: flex;
+      flex-direction: column;
+      padding-top: .5rem;
+    }
+    
+    .contact-1 {
+      display: flex;
+      flex-direction: column;
+    }
+
+ 
+}

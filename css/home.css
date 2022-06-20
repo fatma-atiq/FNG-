@@ -1,0 +1,233 @@
+@media only screen and (max-width: 1200px) {
+
+   
+}
+
+
+/* Small tablet to big tablet: from 768px to 1024px */
+@media only screen and (max-width: 1024px) {
+ 
+    .heading{
+        font-size: 1.7rem;
+    
+    }
+    .d-travelling {
+      
+       margin-top: 5rem;
+    }
+
+    .h-travelling {
+        font-size: 1rem; 
+     
+
+    }
+
+    .p-travelling {
+        font-size: .9rem;
+
+    }
+
+    .form {
+        padding-left: 15rem;
+    }
+
+    .app-screen {
+        width: 45%;
+        margin-right: 150px;
+        margin-top: 40px;
+      }
+
+}
+
+
+
+/* Small phones to small tablets: from 480px to 768px */
+@media only screen and (max-width: 768px) {
+     
+    #navbar {
+    margin-top: 0;
+    
+    }
+    .logo {
+      margin-top: 0;
+    }
+
+
+    .mobile-nav-icon {
+      display: block;
+      margin-top: 0;
+      
+    }
+
+    #navbar ul {
+      display: block;
+      display: none;
+    }
+
+    #navbar ul li a:link,
+    #navbar ul li a:visited {
+      border: 0;
+      display: block;
+      padding: 0;
+      
+    }
+
+    #navbar ul li a:hover {
+      color: #22e6d6b7;
+      
+    }
+
+
+    .package {
+        margin: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+
+      .package-text {
+        margin-left: 0.2rem;
+        font-size: 0.8rem;
+        text-align: center;
+      }
+      .package-text h3 {
+        margin-bottom: 0.5rem;
+        font-size: .8rem;
+        padding: .5rem;
+      }
+      
+      .package-img {
+        width: 90px;
+        margin-top: -3rem;
+        margin-left: 3rem;
+      }
+
+      .iimg {
+          margin-top: 6rem;
+      }
+
+      .h-subscriber {
+        color: #fff;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        word-spacing: 0.5rem;
+        margin-bottom: 1rem;
+      }
+      
+      .h2-subscriber {
+        color: #fff;
+        font-size: .8rem;
+        text-transform: uppercase;
+        word-spacing: 0.5rem;
+        margin-bottom: 3rem;
+      }
+      
+      .form {
+        padding-left: 10rem;
+      }
+
+      .subscriber {
+        padding-top: 12rem;
+      }
+
+      .app-screen { 
+          width: 50%;
+          margin-left: 80px;
+     }
+      .steps-box:first-child { text-align: center; }
+      
+      .works-step div {
+          height: 40px;
+          width: 40px;
+          margin-right: 15px;
+          padding: 4px;
+          font-size: 120%;
+      }
+      
+      .works-step { margin-bottom: 20px; }
+      .works-step:last-of-type { margin-bottom: 20px; }
+
+      .p11 {
+          text-align: justify;
+      }
+      
+}      
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    #header .content-main {
+        display: none;
+        font-size: 2rem;
+        letter-spacing: 1rem;
+      }
+      
+      #header .content-sub {
+        display: none;
+        font-size: 1rem;
+        word-spacing: 0.5rem;
+        letter-spacing: 0.5rem;
+      }
+
+      #register .form-container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .package-container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .d-travelling {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 200px;
+        
+      }
+
+      .h-travelling {
+        color: #333;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 100px;
+      }
+      
+      .p-travelling {
+        color: #333;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        text-align: justify;
+        margin-right: 100px;
+      }
+
+      .form {
+        display: flex;
+        flex-direction: column;
+
+      }
+
+      .inpuut {
+        padding-bottom: 50px;
+      }
+
+      .btn-2 {
+        margin-top: 20px;
+      }
+
+      .heading-2 {
+        font-size: 1.2rem;
+      }
+
+      .contact {
+        display: flex;
+        flex-direction: column;
+        padding-top: .5rem;
+      }
+      
+      .contact-1 {
+        display: flex;
+        flex-direction: column;
+      }
+   
+}
